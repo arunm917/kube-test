@@ -6,7 +6,7 @@ export LD_LIBRARY_PATH="/usr/local/nvidia/lib:$LD_LIBRARY_PATH"
 # Tools config for CUDA, Anaconda installed in the common /tools directory
 source /tools/config.sh
 # Activate your environment
-source activate py36
+source activate torch37
 # Change to the directory in which your code is present
 cd /path/to/run.sh
 # Run the code. The -u option is used here to use unbuffered writes
