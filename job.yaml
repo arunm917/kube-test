@@ -52,9 +52,6 @@ spec:
  # You can specify a label indicating a specific model of GPU here when you need it.
   # Leave it commented when learning how to use the cluster.
 #  nodeName: panini
-  #nodeSelector: 
-  #  hostname: markov
-   #gputype: titanx
    # This part specifies the Docker container in which your code will run.
   containers:
   - name: local-image-container
