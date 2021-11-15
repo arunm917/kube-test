@@ -9,7 +9,7 @@ source /tools/config.sh
 # Activate your environment
 source activate torch37
 # Change to the directory in which your code is present
-cd /path/to/run.sh
+cd /storage/home/arunm92/test/kube-test/
 # Run the code. The -u option is used here to use unbuffered writes
 # so that output is piped to the file as and when it is produced.
 # Here, the code is a simple Pytorch script to check if we are using the GPU.
